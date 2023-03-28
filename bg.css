@@ -1,0 +1,83 @@
+body {
+    background: linear-gradient(blue, red);
+    font-family: 'Happy Monkey', cursive;
+    color: white; 
+    text-align: center;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+
+h1, h3, p {
+    text-shadow: 0 0 1px black;
+}
+
+#fce {
+    border-radius: 400px;
+    border: 5px solid palevioletred;
+}
+
+#bd-a {
+    background-color: palevioletred;
+    padding:5px 3px;
+    margin: 7px 0;
+    border-radius: 5px;
+}
+
+#bd-d {
+    background-color: palevioletred;
+    padding:5px 3px;
+    margin: 7px 0;
+    border-radius: 5px;
+}
+
+.gift-section {
+    margin-top: 50px;
+}
+
+.g-img {
+    width: 400px;
+    height: 400px;
+    margin:0 auto;
+    background-image: url(box.jpg);
+    background-size: cover;
+    border: 6px solid white;
+    border-radius: 6px;
+}
+
+#g-img:hover {
+    background-image: url(https://media.tenor.com/I3g2R9_46yoAAAAM/happy-birthday-gifts.gif) ;
+}
+
+#g-img1:hover {
+    background-image: url(https://media2.giphy.com/media/XqkeNGrs2LM1q/giphy.gif);
+}
+
+#cheers {
+    height:200px;
+}
+
+#cheers:hover {
+    background-image: url(https://media1.giphy.com/media/10bHcDcPM925ry/giphy.gif);
+}
+
+.g-title {
+ margin-bottom: 10px;
+}
+
+.g-hint {
+ margin-top: 0;
+}
+
+footer {
+    margin-top: 20px;
+}
+
+a {
+    font-style: italic;
+    color:white;
+}
